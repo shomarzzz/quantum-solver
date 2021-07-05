@@ -1,4 +1,7 @@
-
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.linalg import eigh_tridiagonal
+from sympy import Symbol, parse_expr
 class Solver:
     def __init__(self):
         self.n = 1
