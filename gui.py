@@ -1,10 +1,6 @@
 from tkinter import Button, Checkbutton, Entry, IntVar, Label, Tk
 from tkinter import messagebox
 from solve import Solver
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.linalg import eigh_tridiagonal
-from sympy import Symbol, parse_expr
 q = Solver()
 def show_plot():
     if accur_entry.get().isdigit():
