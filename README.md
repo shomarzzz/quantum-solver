@@ -1,5 +1,5 @@
 # quantum-solver
-This is a programme that solve the wave function of a particle on a given potential.\n
+This is a programme that solve the wave function of a particle on a given potential.
 If we run gui.py then we will get "give number of grid points" here we will give the sampling grid points to solve the programme.
 In "give potential" we should give the potential in terms of x i.e. x**2. 
 "bounded range" gives were the particle is bounded. "wave number" is the number of wave we want to see.
